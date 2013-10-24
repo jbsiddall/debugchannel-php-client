@@ -60,9 +60,10 @@ class D
     private static $messageSequenceNo;
 
     /**
-     * Standard constructor, blah blah
+     * @descr Standard constructor, blah blah
      * @param string Hostname
      * @param string Channel
+     * @param string $apiKey Used for authenticating this client on the server. Optional. Default null.
      * @param array ref options. See, ref.php for list of allowed options
      */
     public function __construct( $host, $channel, $apiKey = null, array $options = ["showPrivateMembers" => true, "expLvl" => 3] )

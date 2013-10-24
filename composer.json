@@ -3,12 +3,13 @@
     "license": "AFFERO",
     "type": "project",
     "autoload": {
-        "psr-0": { 
+        "psr-0": {
         	"": "src/"
         }
     },
     "require": {
         "php": ">=5.5",
+        "dannykopping/docblock": "dev-master",
         "andyhu/php-ref": "dev-master"
     },
     "config": {
